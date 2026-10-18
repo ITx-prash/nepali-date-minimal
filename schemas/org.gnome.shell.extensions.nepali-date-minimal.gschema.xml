@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.nepali-date-minimal" path="/org/gnome/shell/extensions/nepali-date-minimal/">
+    <key name="show-suffix" type="b">
+      <default>false</default>
+      <summary>Show the B.S. suffix in the date</summary>
+      <description>If enabled, the date is rendered like "Kartik 2, 2083 B.S." instead of "Kartik 2, 2083".</description>
+    </key>
+    <key name="position" type="s">
+      <choices>
+        <choice value="left"/>
+        <choice value="center"/>
+      </choices>
+      <default>"left"</default>
+      <summary>Panel box placement</summary>
+      <description>Whether the date widget sits at the end of the left panel box or in the center box next to the clock.</description>
+    </key>
+    <key name="font-size" type="i">
+      <range min="0" max="32"/>
+      <default>0</default>
+      <summary>Font size in pixels</summary>
+      <description>0 follows the panel theme default. A value above 0 forces that pixel size, useful with fractional scaling or non-default panel heights.</description>
+    </key>
+  </schema>
+</schemalist>
