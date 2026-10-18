@@ -1,6 +1,6 @@
 {
   "name": "Nepali Date Minimal",
-  "description": "Shows the Bikram Sambat (Nepali) date in the top panel.\n\nFully offline. Covers BS years 1970 to 2100 (1913 to 2044 AD).\n\nOptions: show the B.S. suffix, choose the panel box position, and set a custom font size.",
+  "description": "Shows the Bikram Sambat (Nepali) date in the top panel.",
   "shell-version": ["50"],
   "url": "https://github.com/ITx-prash/nepali-date-minimal",
   "uuid": "nepali-date-minimal@itx-prash",
